@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permissions needed for live AdMob ads -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GuessWhat">
+        <activity android:name=".CarQuizActivity" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2412951628571370~5196609404"/>
+
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AboutUsActivity" android:exported="false" />
+        <activity
+            android:name=".CategoryActivity"
+            android:launchMode="singleTask" />
+        <activity android:name=".CarQuizActivity2"/>
+        <activity android:name=".CarQuizActivity3" />
+        <activity android:name=".CarQuizActivity4" />
+        <activity android:name=".CarQuizActivity5" />
+        <activity android:name=".CarQuizActivity6" />
+        <activity android:name=".CarQuizActivity7" />
+        <activity android:name=".CarQuizActivity8" />
+        <activity android:name=".CarQuizActivity9" />
+        <activity android:name=".CarQuizActivity10" />
+        <activity android:name=".CarQuizActivity11" />
+        <activity android:name=".CarQuizActivity12" />
+        <activity android:name=".CarQuizActivity13" />
+        <activity android:name=".CarQuizActivity14" />
+        <activity android:name=".CarQuizActivity15" />
+        <activity android:name=".CarQuizActivity16"/>
+        <activity android:name=".CarQuizActivity17"/>
+        <activity android:name=".CarQuizActivity18"/>
+        <activity android:name=".CarQuizActivity19"/>
+        <activity android:name=".CarQuizActivity20"/>
+        <activity android:name=".PhoneQuizActivity1" />
+        <activity android:name=".PhoneQuizActivity2" />
+        <activity android:name=".PhoneQuizActivity3" />
+        <activity android:name=".PhoneQuizActivity4" />
+        <activity android:name=".PhoneQuizActivity5" />
+        <activity android:name=".PhoneQuizActivity6" />
+        <activity android:name=".PhoneQuizActivity7" />
+        <activity android:name=".PhoneQuizActivity8" />
+        <activity android:name=".PhoneQuizActivity9" />
+        <activity android:name=".PhoneQuizActivity10" />
+        <activity android:name=".PCQuizActivity" />
+        <activity android:name=".PCQuizActivity1" />
+        <activity android:name=".PCQuizActivity2" />
+        <activity android:name=".PCQuizActivity3" />
+        <activity android:name=".PCQuizActivity4" />
+        <activity android:name=".PCQuizActivity5" />
+        <activity android:name=".PCQuizActivity6" />
+        <activity android:name=".PCQuizActivity7" />
+        <activity android:name=".PCQuizActivity8" />
+        <activity android:name=".CompanyQuizActivity" />
+        <activity android:name=".CompanyQuizActivity1" />
+        <activity android:name=".CompanyQuizActivity2" />
+        <activity android:name=".CompanyQuizActivity3" />
+        <activity android:name=".CompanyQuizActivity4" />
+        <activity android:name=".CompanyQuizActivity5" />
+        <activity android:name=".CompanyQuizActivity6" />
+        <activity android:name=".CompanyQuizActivity7" />
+        <activity android:name=".CompanyQuizActivity8" />
+        <activity android:name=".CompanyQuizActivity9" />
+        <activity android:name=".CompanyQuizActivity10" />
+        <activity android:name=".CompanyQuizActivity11" />
+        <activity android:name=".CompanyQuizActivity12" />
+        <activity android:name=".CompanyQuizActivity13" />
+        <activity android:name=".CompanyQuizActivity14" />
+        <activity android:name=".CompanyQuizActivity15" />
+        <activity android:name=".CompanyQuizActivity16" />
+        <activity android:name=".CompanyQuizActivity17" />
+        <activity android:name=".CompanyQuizActivity18" />
+        <activity android:name=".CompanyQuizActivity19" />
+        <activity android:name=".CompanyQuizActivity20" />
+        <activity android:name=".FamousQuizActivity" />
+        <activity android:name=".FamousQuizActivity1" />
+        <activity android:name=".FamousQuizActivity2" />
+        <activity android:name=".FamousQuizActivity3" />
+        <activity android:name=".FamousQuizActivity4" />
+        <activity android:name=".FamousQuizActivity5" />
+        <activity android:name=".FamousQuizActivity6" />
+        <activity android:name=".FamousQuizActivity7" />
+        <activity android:name=".FamousQuizActivity8" />
+        <activity android:name=".FamousQuizActivity9" />
+        <activity android:name=".FamousQuizActivity10" />
+        <activity android:name=".FamousQuizActivity11" />
+        <activity android:name=".FamousQuizActivity12" />
+        <activity android:name=".FamousQuizActivity13" />
+        <activity android:name=".FamousQuizActivity14" />
+        <activity android:name=".FamousQuizActivity15" />
+        <activity android:name=".ClothesQuizActivity" />
+        <activity android:name=".ClothesQuizActivity1" />
+        <activity android:name=".ClothesQuizActivity2" />
+        <activity android:name=".ClothesQuizActivity3" />
+        <activity android:name=".ClothesQuizActivity4" />
+        <activity android:name=".ClothesQuizActivity5" />
+        <activity android:name=".ClothesQuizActivity6" />
+        <activity android:name=".ClothesQuizActivity7" />
+        <activity android:name=".ClothesQuizActivity8" />
+        <activity android:name=".ClothesQuizActivity9" />
+        <activity android:name=".ClothesQuizActivity10" />
+        <activity android:name=".FoodQuizActivity" />
+        <activity android:name=".FoodQuizActivity1" />
+        <activity android:name=".FoodQuizActivity2" />
+        <activity android:name=".FoodQuizActivity3" />
+        <activity android:name=".FoodQuizActivity4" />
+        <activity android:name=".FoodQuizActivity5" />
+        <activity android:name=".FoodQuizActivity6" />
+        <activity android:name=".FoodQuizActivity7" />
+        <activity android:name=".FootballQuizActivity" />
+        <activity android:name=".FootballQuizActivity1" />
+        <activity android:name=".FootballQuizActivity2" />
+        <activity android:name=".FootballQuizActivity3" />
+        <activity android:name=".FootballQuizActivity4" />
+        <activity android:name=".FootballQuizActivity5" />
+        <activity android:name=".FootballQuizActivity6" />
+        <activity android:name=".FootballQuizActivity7" />
+        <activity android:name=".FootballQuizActivity8" />
+        <activity android:name=".FootballQuizActivity9" />
+        <activity android:name=".FootballQuizActivity10" />
+        <activity android:name=".FootballQuizActivity11" />
+        <activity android:name=".FootballQuizActivity12" />
+        <activity android:name=".FootballQuizActivity13" />
+        <activity android:name=".FootballQuizActivity14" />
+        <activity android:name=".FootballQuizActivity15" />
+    </application>
+</manifest>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#243278">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+
+
+    <!-- Return Button -->
+        <TextView
+            android:id="@+id/returnText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&lt; Return"
+            android:textColor="#FF0000"
+            android:textSize="22sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="start"/>
+
+        <!-- Grid of Categories -->
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:gravity="center"
+            android:rowCount="4"
+            android:useDefaultMargins="true">
+
+            <!-- Car -->
+            <ImageView
+                android:id="@+id/carCategoryBox"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="13dp"
+                android:background="@drawable/button_background"
+                android:scaleType="centerInside"
+                android:layout_gravity="center"
+                android:src="@drawable/car" />
+
+
+            <!-- Phone -->
+            <ImageView
+                android:id="@+id/phoneCategoryBox"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="13dp"
+                android:background="@drawable/button_background"
+                android:scaleType="centerInside"
+                android:src="@drawable/phone" />
+
+            <!-- PC -->
+            <ImageView
+                android:id="@+id/pcCategoryBox"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="13dp"
+                android:background="@drawable/button_background"
+                android:scaleType="centerInside"
+                android:src="@drawable/pc" />
+
+            <!-- Money -->
+            <ImageView
+                android:id="@+id/moneyCategoryBox"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="13dp"
+                android:background="@drawable/button_background"
+                android:scaleType="centerInside"
+                android:src="@drawable/money" />
+
+            <!-- Person -->
+            <ImageView
+                android:id="@+id/personCategoryBox"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="13dp"
+                android:background="@drawable/button_background"
+                android:scaleType="centerInside"
+                android:src="@drawable/person" />
+
+            <!-- Clothes -->
+            <ImageView
+                android:id="@+id/clothesCategoryBox"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="13dp"
+                android:background="@drawable/button_background"
+                android:scaleType="centerInside"
+                android:src="@drawable/clothes" />
+
+            <!-- Food -->
+            <ImageView
+                android:id="@+id/foodCategoryBox"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="13dp"
+                android:background="@drawable/button_background"
+                android:scaleType="centerInside"
+                android:src="@drawable/food" />
+
+            <!-- Football -->
+            <ImageView
+                android:id="@+id/footballCategoryBox"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="12dp"
+                android:background="@drawable/button_background"
+                android:scaleType="centerInside"
+                android:src="@drawable/football" />
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>

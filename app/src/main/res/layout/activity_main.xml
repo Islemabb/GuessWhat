@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#243278"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <!-- App Title -->
+
+    <!-- Image -->
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="GuessWhat"
+        android:textColor="#63FFA4"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/centerImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/thinking_guy"
+        android:layout_marginBottom="32dp" />
+
+    <!-- PLAY Button -->
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PLAY"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="16dp" />
+
+    <!-- SETTINGS Button -->
+    <Button
+        android:id="@+id/btnAboutUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABOUT US"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="@drawable/button_background" />
+
+
+</LinearLayout>
